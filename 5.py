@@ -1,4 +1,10 @@
 x = int(input())
 y = int(input())
 
-c = x
+checker = (x%2)
+print(checker)
+
+if(checker == y):
+	print("yes")
+else:
+	print("no")
