@@ -13,3 +13,11 @@ if(num/2 != num//2):
         print("intiger shode = {0}".format(int(num)))
 else:
         print("PLS Enter Float number")
+
+#correct
+x = input("enter num: ")
+if("." in x):
+        y = int(float(x))
+        print(y)
+else:
+        print("invalid")
