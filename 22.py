@@ -4,6 +4,6 @@ while(True):
 	if(num == 0):
 		break
 	elif(num % 2 == 0 and num % 3 == 0):
-                print("Yes mod by 3 and 2 is 0 .")
+                print("Yes {0} mod by 3 and 2 is 0 .".format(num))
 	else:
 		print("Try Another Number !")
