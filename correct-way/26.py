@@ -13,7 +13,7 @@ def factor(num):
 	return fac
 print(factor(num))
 
-#Recersive Way
+#Recursive Way
 def fact_rec(num):
 	if(num == 1):
 		return 1

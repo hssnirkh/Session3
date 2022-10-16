@@ -13,7 +13,7 @@ def fibo(num):
 			b = c
 		return b
 print(fibo(num))
-#Recersive Way
+#Recursive Way
 def fibo_rec(num):
 	if(num<=2):
 		return 1
